@@ -1,0 +1,23 @@
+{
+  "name": "pricebot-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "dev": "tsx watch index.ts"
+  },
+  "dependencies": {
+    "@circle-fin/x402-batching": "latest",
+    "@x402/core": "latest",
+    "@x402/evm": "latest",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "tsx": "^4.19.3",
+    "viem": "^2.56.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0"
+  }
+}
